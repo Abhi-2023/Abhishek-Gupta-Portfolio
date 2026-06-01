@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Abhishek Gupta — GenAI &amp; AI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Abhishek Gupta home">
+      <span class="mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M21 3 3 10.5l7 2.5 2.5 7L21 3Z" fill="#06302f"/><path d="M21 3 10 13.5" stroke="#06302f" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </span>
+      Abhishek&nbsp;Gupta
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#what">What I Do</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#why">Why Me</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="#contact">Let's connect
+      <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <button class="nav-burger" id="burger" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-top">
+    <span class="brand"><span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M21 3 3 10.5l7 2.5 2.5 7L21 3Z" fill="#06302f"/></svg></span>Abhishek Gupta</span>
+    <button class="mm-close" id="mmClose" aria-label="Close menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+  <a href="#about">About</a>
+  <a href="#what">What I Do</a>
+  <a href="#services">Services</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#why">Why Me</a>
+  <a class="btn btn-primary" href="#contact">Let's connect</a>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="hero-kicker"><span class="dot"></span>GenAI Engineer · AI Engineer · Backend Engineer</span>
+      <h1>
+        Building production-ready AI systems
+        <span class="bracket">{ <span class="b">agents · RAG · LLM apps</span> }</span>
+      </h1>
+      <p class="hero-sub">
+        Software engineer with a strong backend foundation and a deep focus on Generative AI,
+        agentic workflows, and Retrieval-Augmented Generation — turning complex business
+        requirements into scalable, reliable, and production-grade AI solutions.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Let's build intelligent systems together
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="https://drive.google.com/file/d/19Tf08QS3DQLFLNcxR-lovKGGl8sq6Rje/view?usp=sharing" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Resume
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="v"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2v4m0 12v4M2 12h4m12 0h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="2"/></svg>2+ yrs</span>
+          <span class="l">Production engineering</span>
+        </div>
+        <div class="hero-stat">
+          <span class="v"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h10M4 17h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Agentic AI</span>
+          <span class="l">Multi-agent &amp; RAG systems</span>
+        </div>
+        <div class="hero-stat">
+          <span class="v"><svg viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>End-to-end</span>
+          <span class="l">From API to LLM app</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <span class="ring r1"></span>
+      <span class="ring r2"></span>
+      <span class="glow"></span>
+      <svg class="plane" viewBox="0 0 320 320" fill="none">
+        <defs>
+          <linearGradient id="pg1" x1="60" y1="40" x2="260" y2="280" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#bff7ef"/><stop offset="1" stop-color="#2ed3c4"/>
+          </linearGradient>
+          <linearGradient id="pg2" x1="60" y1="60" x2="240" y2="260" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6fe3d6"/><stop offset="1" stop-color="#157e88"/>
+          </linearGradient>
+        </defs>
+        <path d="M278 42 70 150l78 26 22 80L278 42Z" fill="url(#pg1)"/>
+        <path d="M278 42 148 176l22 80L278 42Z" fill="url(#pg2)"/>
+        <path d="M278 42 148 176" stroke="#06302f" stroke-opacity=".25" stroke-width="2"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INTRO ===================== -->
+<section class="intro section" id="intro">
+  <div class="wrap intro-grid">
+    <div class="intro-photo reveal">
+      <img src="assets/abhishek.jpg" alt="Abhishek Gupta" />
+      <div class="badge"><span class="pulse"></span>Open to GenAI &amp; AI Engineering roles</div>
+    </div>
+    <div class="intro-copy reveal">
+      <span class="eyebrow dark">Short Introduction</span>
+      <h2 style="margin-top:14px;">Hi, I'm Abhishek Gupta <span class="wave">👋</span></h2>
+      <p>
+        I'm a Software Engineer transitioning into a specialized GenAI and AI Engineering role —
+        combining a strong backend engineering foundation with modern AI technologies. My expertise
+        spans agentic AI workflows, Retrieval-Augmented Generation, LLM-powered applications,
+        machine learning, NLP, and scalable backend systems.
+      </p>
+      <p>
+        With experience designing production APIs, optimizing business-critical systems, and building
+        AI applications from the ground up, I focus on solutions that are not only intelligent but
+        also reliable, scalable, and aligned with real-world business needs.
+      </p>
+      <div class="intro-sign">
+        <div>
+          <div class="name">Abhishek Gupta</div>
+          <div class="role">GenAI · AI · Backend Engineer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="about section" id="about">
+  <div class="wrap">
+    <div style="max-width:760px;margin-bottom:48px;">
+      <span class="eyebrow dark">About Me</span>
+      <h2 style="font-size:clamp(28px,3.4vw,42px);margin-top:14px;">Building the next generation of intelligent software</h2>
+    </div>
+    <p class="about-lede reveal">
+      My journey into AI Engineering began through software development — and today I combine
+      traditional engineering discipline with modern AI to design applications that
+      <span class="hl">reason, retrieve, automate, and assist</span>.
+    </p>
+    <div class="about-cols reveal">
+      <div>
+        <p>
+          While working as a Backend Engineer, I developed scalable APIs, optimized system
+          performance, and solved complex business problems through software. Along the way I became
+          increasingly interested in how intelligent systems work, how large language models are
+          built and deployed, and how AI fits into real production environments.
+        </p>
+        <p>
+          As the landscape evolved, I recognized the growing impact of Generative AI and decided to
+          invest deeply in Machine Learning, Deep Learning, NLP, Transformers, Retrieval-Augmented
+          Generation, and Agentic AI systems.
+        </p>
+      </div>
+      <div>
+        <p>
+          Today, I bring together two valuable perspectives: the engineering discipline required to
+          build reliable software, and the AI expertise required to build intelligent applications.
+        </p>
+        <p>
+          My goal isn't simply to build AI demos. I aim to build <b style="color:var(--ink)">production-grade
+          AI systems</b> that deliver measurable value, maintain reliability, and solve meaningful
+          business challenges.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TRANSITION STORY ===================== -->
+<section class="transition section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">My Transition Story</span>
+      <h2>From Backend Engineering to AI Engineering</h2>
+      <p>Rather than treating AI as a trend, I wanted to understand the technology deeply — from machine learning fundamentals to modern LLM architectures, RAG systems, and agentic workflows.</p>
+    </div>
+    <div class="path-grid">
+      <div class="path-card reveal">
+        <div class="pc-num">01 — THE FOUNDATION</div>
+        <h3>Backend Engineering</h3>
+        <p>My professional journey started with backend development — designing APIs, optimizing performance, and building reliable software systems that solve real business problems.</p>
+        <div class="dual">
+          <div class="d"><b>Reliability.</b> Systems that handle real traffic, not toy demos.</div>
+          <div class="d"><b>Scale.</b> Architecture and performance built in from day one.</div>
+        </div>
+      </div>
+      <div class="path-card reveal">
+        <div class="pc-num">02 — THE EVOLUTION</div>
+        <h3>AI Engineering</h3>
+        <p>To strengthen my capabilities, I invested significant time learning and building practical projects across the modern AI stack:</p>
+        <div class="chip-row">
+          <span class="chip">Machine Learning</span>
+          <span class="chip">Deep Learning</span>
+          <span class="chip">NLP</span>
+          <span class="chip">Transformers</span>
+          <span class="chip">Vector Databases</span>
+          <span class="chip">RAG</span>
+          <span class="chip">Agentic AI</span>
+          <span class="chip">LLM Apps</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHAT I DO ===================== -->
+<section class="section" id="what">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow dark">What I Do</span>
+      <h2>Intelligent software, built to ship</h2>
+      <p>I build intelligent software systems that combine modern AI capabilities with scalable engineering practices.</p>
+    </div>
+    <div class="do-grid">
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/><circle cx="5" cy="5" r="2.2" stroke="currentColor" stroke-width="2"/><circle cx="19" cy="5" r="2.2" stroke="currentColor" stroke-width="2"/><circle cx="5" cy="19" r="2.2" stroke="currentColor" stroke-width="2"/><circle cx="19" cy="19" r="2.2" stroke="currentColor" stroke-width="2"/><path d="m6.6 6.6 3 3m4.8 0 3-3m-9.6 10.8 3-3m4.8 0 3 3" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3>Agentic AI Systems</h3>
+        <p>Designing multi-agent workflows capable of planning, reasoning, tool usage, retrieval, and end-to-end task execution.</p>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3Z" stroke="currentColor" stroke-width="2"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" stroke="currentColor" stroke-width="2"/></svg></div>
+        <h3>Retrieval-Augmented Generation</h3>
+        <p>Building context-aware AI that retrieves and uses enterprise knowledge for accurate, grounded responses.</p>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 21h8M12 18v3M7 9l2 2-2 2m4 1h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>LLM Application Development</h3>
+        <p>Developing AI-powered apps for chat, automation, document analysis, and workflow enhancement using modern language models.</p>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.5 8.5 0 0 1-12.2 7.6L3 21l1.9-5.8A8.5 8.5 0 1 1 21 11.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 11.5h.01M12 11.5h.01M15.5 11.5h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></div>
+        <h3>AI Chatbot Development</h3>
+        <p>Creating conversational AI that answers questions, retrieves knowledge, and assists users effectively.</p>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><path d="m8 18-5-6 5-6m8 12 5-6-5-6M14 4l-4 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Backend API Development</h3>
+        <p>Building scalable APIs and backend services that power modern AI applications and business systems.</p>
+      </div>
+      <div class="do-card reveal">
+        <div class="do-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m7 14 3-4 3 2 5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Machine Learning Solutions</h3>
+        <p>Developing ML-powered systems for classification, prediction, and intelligent decision-making.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="services section" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow dark">Services</span>
+      <h2>How I can help</h2>
+      <p>End-to-end help bringing AI capabilities into real products and business workflows.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card reveal"><div class="svc-num">01</div><h3>AI Chatbot Development</h3><p>Custom AI assistants for customer support, internal knowledge systems, and intelligent user interactions.</p></div>
+      <div class="svc-card reveal"><div class="svc-num">02</div><h3>RAG Solutions</h3><p>Document-aware AI systems that retrieve and use enterprise knowledge with contextual accuracy.</p></div>
+      <div class="svc-card reveal"><div class="svc-num">03</div><h3>Agentic AI Workflows</h3><p>Multi-agent systems that automate complex tasks, orchestrate workflows, and improve operational efficiency.</p></div>
+      <div class="svc-card reveal"><div class="svc-num">04</div><h3>LLM Application Development</h3><p>End-to-end AI-powered applications built with modern language models and vector search technologies.</p></div>
+      <div class="svc-card reveal"><div class="svc-num">05</div><h3>Backend API Engineering</h3><p>Design and development of scalable backend services and APIs supporting AI and business applications.</p></div>
+      <div class="svc-card reveal"><div class="svc-num">06</div><h3>AI Integration Solutions</h3><p>Helping businesses integrate AI capabilities into their existing systems and workflows.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERTISE ===================== -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow dark">Core Expertise</span>
+      <h2>Where I go deep</h2>
+      <p>A blend of AI specialization and backend engineering fundamentals.</p>
+    </div>
+    <div class="exp-grid">
+      <div class="exp-card reveal">
+        <div class="exp-head"><span class="ei"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2a4 4 0 0 0-4 4 4 4 0 0 0-2 7.5A3.5 3.5 0 0 0 8 20a3 3 0 0 0 4 1 3 3 0 0 0 4-1 3.5 3.5 0 0 0 2-6.5A4 4 0 0 0 16 6a4 4 0 0 0-4-4Z" stroke="currentColor" stroke-width="1.7"/><path d="M12 6v15" stroke="currentColor" stroke-width="1.7"/></svg></span><h3>Artificial Intelligence</h3></div>
+        <div class="exp-tags"><span>Generative AI</span><span>Agentic AI</span><span>Large Language Models</span><span>RAG Systems</span><span>Prompt Engineering</span><span>Context Engineering</span></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-head"><span class="ei"><svg viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><rect x="7" y="11" width="3" height="6" rx="1" stroke="currentColor" stroke-width="1.7"/><rect x="13" y="7" width="3" height="10" rx="1" stroke="currentColor" stroke-width="1.7"/></svg></span><h3>Machine Learning</h3></div>
+        <div class="exp-tags"><span>Supervised Learning</span><span>Unsupervised Learning</span><span>Classification Models</span><span>Feature Engineering</span><span>Model Evaluation</span></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-head"><span class="ei"><svg viewBox="0 0 24 24" fill="none"><path d="M7 8h10M7 12h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M21 12a9 9 0 1 1-3.2-6.9L21 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Natural Language Processing</h3></div>
+        <div class="exp-tags"><span>Transformers</span><span>Embeddings</span><span>Semantic Search</span><span>Text Processing</span><span>Information Retrieval</span></div>
+      </div>
+      <div class="exp-card reveal">
+        <div class="exp-head"><span class="ei"><svg viewBox="0 0 24 24" fill="none"><path d="m8 18-5-6 5-6m8 12 5-6-5-6M14 4l-4 16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Backend Engineering</h3></div>
+        <div class="exp-tags"><span>REST APIs</span><span>System Design</span><span>Auth &amp; Authorization</span><span>Performance Optimization</span><span>Database Design</span></div>
+      </div>
+      <div class="exp-card reveal" style="grid-column: span 2;">
+        <div class="exp-head"><span class="ei"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2 4 6v6c0 5 3.4 8.5 8 10 4.6-1.5 8-5 8-10V6l-8-4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Production Mindset</h3></div>
+        <p style="color:var(--ink-2);font-size:15px;margin:-4px 0 0;">Successful AI products need more than powerful models — thoughtful system design, reliable infrastructure, effective retrieval strategies, and a deep understanding of user needs. I build AI that's practical, scalable, and maintainable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TECH STACK ===================== -->
+<section class="tech section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow dark">Technology Stack</span>
+      <h2>Tools I build with</h2>
+    </div>
+    <div class="tech-grid">
+      <div class="tech-card reveal"><h4>Languages</h4><div class="tech-list"><span><i></i>Python</span><span><i></i>Java</span><span><i></i>SQL</span></div></div>
+      <div class="tech-card reveal"><h4>AI &amp; LLM Frameworks</h4><div class="tech-list"><span><i></i>LangGraph</span><span><i></i>LangChain</span><span><i></i>Claude API</span><span><i></i>Hugging Face</span></div></div>
+      <div class="tech-card reveal"><h4>Vector Databases</h4><div class="tech-list"><span><i></i>ChromaDB</span><span><i></i>Qdrant</span></div></div>
+      <div class="tech-card reveal"><h4>Machine Learning</h4><div class="tech-list"><span><i></i>Scikit-learn</span><span><i></i>PyTorch</span><span><i></i>TensorFlow</span></div></div>
+      <div class="tech-card reveal"><h4>Backend Frameworks</h4><div class="tech-list"><span><i></i>FastAPI</span><span><i></i>Flask</span><span><i></i>Spring Boot</span></div></div>
+      <div class="tech-card reveal"><h4>Databases</h4><div class="tech-list"><span><i></i>PostgreSQL</span><span><i></i>MySQL</span><span><i></i>MongoDB</span><span><i></i>SAP HANA</span></div></div>
+      <div class="tech-card reveal" style="grid-column: span 3;"><h4>DevOps &amp; Cloud</h4><div class="tech-list"><span><i></i>Docker</span><span><i></i>Docker Compose</span><span><i></i>GitHub Actions</span><span><i></i>AWS</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="proj-top">
+      <div class="section-head">
+        <span class="eyebrow dark">Selected Work</span>
+        <h2 style="margin-top:14px;">Projects I've built</h2>
+      </div>
+      <div class="carousel-nav">
+        <button class="cbtn" id="projPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="cbtn" id="projNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+    <div class="proj-track" id="projTrack">
+      <article class="proj-card">
+        <div class="proj-thumb t-agent">
+          <span class="pt-tag">Agentic AI</span>
+          <span class="pt-logo"><span class="lg"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#fff" stroke-width="2"/><circle cx="5" cy="5" r="2" stroke="#fff" stroke-width="2"/><circle cx="19" cy="19" r="2" stroke="#fff" stroke-width="2"/><path d="m6.6 6.6 3 3m4.8 4.8 3 3" stroke="#fff" stroke-width="2"/></svg></span>SWE AI Agent</span>
+        </div>
+        <div class="proj-body">
+          <h3>SWE AI Agent</h3>
+          <div class="pb-sub">Autonomous software-engineering agent</div>
+          <p>A multi-agent system that plans, writes, and reviews code across a repository — orchestrating tool use, retrieval, and reasoning to take an engineering task from intent to working changes.</p>
+          <div class="proj-stack"><span>LangGraph</span><span>Claude API</span><span>Python</span><span>FastAPI</span></div>
+          <a class="proj-link" href="https://github.com/Abhi-2023" target="_blank" rel="noopener">View on GitHub
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="proj-card">
+        <div class="proj-thumb t-nexus">
+          <span class="pt-tag">RAG</span>
+          <span class="pt-logo"><span class="lg"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3Z" stroke="#fff" stroke-width="2"/><path d="M4 6v12c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3" stroke="#fff" stroke-width="2"/></svg></span>Nexus AI</span>
+        </div>
+        <div class="proj-body">
+          <h3>Nexus AI</h3>
+          <div class="pb-sub">Retrieval-augmented knowledge assistant</div>
+          <p>A context-aware assistant that grounds every answer in your own documents — semantic search over a vector store feeds an LLM to deliver accurate, source-cited responses instead of hallucinations.</p>
+          <div class="proj-stack"><span>LangChain</span><span>ChromaDB</span><span>FastAPI</span><span>Claude API</span></div>
+          <a class="proj-link" href="https://github.com/Abhi-2023" target="_blank" rel="noopener">View on GitHub
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+      <article class="proj-card">
+        <div class="proj-thumb t-expense">
+          <span class="pt-tag">ML + LLM</span>
+          <span class="pt-logo"><span class="lg"><svg viewBox="0 0 24 24" fill="none"><path d="M3 3v18h18" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="m7 14 3-4 3 2 5-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Expense Analyzer</span>
+        </div>
+        <div class="proj-body">
+          <h3>Expense Analyzer</h3>
+          <div class="pb-sub">AI-powered spend analysis</div>
+          <p>Extracts, categorizes, and summarizes spending from raw documents using LLMs and ML models — surfacing patterns and insights through a clean API and dashboard-ready output.</p>
+          <div class="proj-stack"><span>Python</span><span>Scikit-learn</span><span>FastAPI</span><span>PostgreSQL</span></div>
+          <a class="proj-link" href="https://github.com/Abhi-2023" target="_blank" rel="noopener">View on GitHub
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== QUALITIES ===================== -->
+<section class="qual section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow dark">Professional Qualities</span>
+      <h2>How I work</h2>
+    </div>
+    <div class="qual-grid">
+      <div class="qual-card reveal"><div class="qn">1</div><h3>Ownership</h3><p>I own delivery end-to-end — from understanding requirements to deployment and maintenance.</p></div>
+      <div class="qual-card reveal"><div class="qn">2</div><h3>Analytical Thinking</h3><p>I approach problems systematically, breaking complex challenges into actionable solutions.</p></div>
+      <div class="qual-card reveal"><div class="qn">3</div><h3>Problem Solving</h3><p>I identify root causes, evaluate trade-offs, and build effective solutions for real problems.</p></div>
+      <div class="qual-card reveal"><div class="qn">4</div><h3>Continuous Learning</h3><p>I actively invest in learning emerging tools, frameworks, and AI advancements.</p></div>
+      <div class="qual-card reveal"><div class="qn">5</div><h3>Adaptability</h3><p>My move from backend to AI engineering shows I learn, evolve, and thrive amid change.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY ME ===================== -->
+<section class="section" id="why">
+  <div class="wrap why-grid">
+    <div class="why-intro reveal">
+      <span class="eyebrow">Why Work With Me</span>
+      <h2>Engineering rigor meets AI capability</h2>
+      <p>I pair a strong software-engineering foundation with hands-on AI experience — translating business requirements into technical solutions that actually ship and hold up in production.</p>
+      <div class="why-actions">
+        <a class="btn btn-dark" href="#contact">Start a conversation
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="acc-list">
+      <div class="acc open">
+        <button class="acc-q"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="qtxt">Strong foundation in software engineering</span></button>
+        <div class="acc-a"><div class="inner">Years of backend work mean I understand APIs, data, performance, and system design — the substrate every reliable AI product is built on.</div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-q"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="qtxt">Practical experience building AI applications</span></button>
+        <div class="acc-a"><div class="inner">Agentic workflows, RAG pipelines, and LLM apps built end-to-end — not slideware, but working systems with real retrieval, tooling, and evaluation.</div></div>
+      </div>
+      <div class="acc peach">
+        <button class="acc-q"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="qtxt">A production-focused mindset</span></button>
+        <div class="acc-a"><div class="inner">I design for reliability, scalability, and maintainability from day one — so what gets built keeps working as usage and requirements grow.</div></div>
+      </div>
+      <div class="acc">
+        <button class="acc-q"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="qtxt">Fluent in both backend and AI ecosystems</span></button>
+        <div class="acc-a"><div class="inner">I move comfortably between Spring Boot APIs and LangGraph agents, between SQL schemas and vector stores — bridging two worlds that rarely meet in one engineer.</div></div>
+      </div>
+      <div class="acc peach">
+        <button class="acc-q"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><span class="qtxt">I turn business requirements into technical solutions</span></button>
+        <div class="acc-a"><div class="inner">I start from the business problem, not the model — then commit to reliability, scalability, maintainability, and continuous improvement.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PHILOSOPHY ===================== -->
+<section class="philo section">
+  <div class="wrap philo-inner">
+    <span class="eyebrow">Professional Philosophy</span>
+    <div class="qmark">"</div>
+    <blockquote>Technology creates the most value when <span class="hl">intelligence and engineering work together.</span></blockquote>
+    <div class="philo-body">
+      <p>I believe successful AI products require more than powerful models. They require thoughtful system design, reliable infrastructure, and effective retrieval strategies.</p>
+      <p>My focus is to build AI systems that are practical, scalable, and capable of delivering measurable business outcomes — grounded in a deep understanding of user needs.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="contact section" id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <span class="eyebrow">Contact</span>
+      <h2 style="margin-top:14px;">Let's build <span class="hl">intelligent systems</span> together</h2>
+      <p>Whether you're looking to build AI-powered applications, implement RAG systems, develop agentic workflows, or create scalable backend services — I'd be happy to connect.</p>
+      <div class="contact-card" style="margin-top:32px;">
+        <a class="clink" href="mailto:abhishekofficials2004@gmail.com?cc=abhishekgupta862004@gmail.com">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="ctxt"><span class="cl">Email</span><span class="cv">abhishekofficials2004@gmail.com</span></span>
+          <span class="arr"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="clink" href="https://www.linkedin.com/in/abhishek-gupta-7a2040221/" target="_blank" rel="noopener">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4V24h-4V8Zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4 0 4.88 2.65 4.88 6.1V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9s-2.7 1.86-2.7 3.78V24h-4V8Z"/></svg></span>
+          <span class="ctxt"><span class="cl">LinkedIn</span><span class="cv">abhishek-gupta</span></span>
+          <span class="arr"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="clink" href="https://github.com/Abhi-2023" target="_blank" rel="noopener">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.22-3.37-1.22-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg></span>
+          <span class="ctxt"><span class="cl">GitHub</span><span class="cv">Abhi-2023</span></span>
+          <span class="arr"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a class="clink" href="https://drive.google.com/file/d/19Tf08QS3DQLFLNcxR-lovKGGl8sq6Rje/view?usp=sharing" target="_blank" rel="noopener">
+          <span class="ci"><svg viewBox="0 0 24 24" fill="none"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+          <span class="ctxt"><span class="cl">Resume</span><span class="cv">Download CV</span></span>
+          <span class="arr"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <form class="cform" id="cform" novalidate>
+      <div class="frow">
+        <div class="field">
+          <label for="cf-name">Name <span class="req">*</span></label>
+          <input type="text" id="cf-name" name="name" placeholder="Your name" autocomplete="name" />
+          <span class="field-err">Please enter your name.</span>
+        </div>
+        <div class="field">
+          <label for="cf-email">Email <span class="req">*</span></label>
+          <input type="email" id="cf-email" name="email" placeholder="you@company.com" autocomplete="email" />
+          <span class="field-err">Please enter a valid email.</span>
+        </div>
+      </div>
+      <div class="field">
+        <label for="cf-subject">Subject</label>
+        <input type="text" id="cf-subject" name="subject" placeholder="e.g. RAG system for our docs" />
+      </div>
+      <div class="field">
+        <label for="cf-message">Message <span class="req">*</span></label>
+        <textarea id="cf-message" name="message" placeholder="Tell me a bit about what you're building…"></textarea>
+        <span class="field-err">Please add a short message.</span>
+      </div>
+      <div class="submit-row">
+        <button type="submit" class="btn btn-primary">Send message
+          <svg viewBox="0 0 24 24" fill="none"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="form-note">Opens your email app, pre-filled.</span>
+      </div>
+      <div class="form-success" id="formSuccess">
+        <span class="fsi"><svg viewBox="0 0 24 24" fill="none"><path d="m5 13 4 4L19 7" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <p>Your email app should be opening now. If it doesn't, write me directly at <a href="mailto:abhishekofficials2004@gmail.com">abhishekofficials2004@gmail.com</a>.</p>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <span class="brand"><span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M21 3 3 10.5l7 2.5 2.5 7L21 3Z" fill="#06302f"/></svg></span>Abhishek Gupta</span>
+    <span class="fcopy">© 2026 Abhishek Gupta · GenAI · AI · Backend Engineer</span>
+    <span class="fsoc">
+      <a href="https://github.com/Abhi-2023" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49v-1.7c-2.78.62-3.37-1.22-3.37-1.22-.46-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.57 2.34 1.12 2.91.85.09-.66.35-1.12.63-1.38-2.22-.26-4.55-1.14-4.55-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.27 2.75 1.05A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9v2.82c0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg></a>
+      <a href="https://www.linkedin.com/in/abhishek-gupta-7a2040221/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.5 8h4V24h-4V8Zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.77-2.2 4 0 4.88 2.65 4.88 6.1V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9s-2.7 1.86-2.7 3.78V24h-4V8Z"/></svg></a>
+    </span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
