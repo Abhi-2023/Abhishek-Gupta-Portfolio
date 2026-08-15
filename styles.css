@@ -268,25 +268,48 @@ a { color: inherit; text-decoration: none; }
   position: relative; z-index: 2; margin-top: 56px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
 }
-.path-card {
+.transition .path-card {
   background: rgba(255,255,255,.045); border: 1px solid rgba(255,255,255,.1);
   border-radius: var(--radius-lg); padding: 32px;
 }
-.path-card .pc-num { font-family: var(--mono); font-size: 13px; color: var(--accent); letter-spacing: .1em; }
-.path-card h3 { font-size: 21px; margin-top: 10px; }
-.path-card p { color: rgba(233,244,246,.74); font-size: 15.5px; margin-top: 12px; }
+.transition .path-card .pc-num { font-family: var(--mono); font-size: 13px; color: var(--accent); letter-spacing: .1em; }
+.transition .path-card h3 { font-size: 21px; margin-top: 10px; }
+.transition .path-card p { color: rgba(233,244,246,.74); font-size: 15.5px; margin-top: 12px; }
 .chip-row { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 22px; }
-.chip {
+.transition .chip {
   font-family: var(--mono); font-size: 12.5px; letter-spacing: .02em;
   padding: 7px 13px; border-radius: 999px;
   background: rgba(46,211,196,.1); border: 1px solid rgba(46,211,196,.28); color: #b9f3ec;
 }
 .dual { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 26px; }
-.dual .d {
+.transition .dual .d {
   padding: 20px; border-radius: 14px; background: rgba(255,255,255,.05);
   border-left: 3px solid var(--accent); font-size: 15px; color: rgba(233,244,246,.85);
 }
-.dual .d b { color: #fff; }
+.transition .dual .d b { color: #fff; }
+
+/* The experience section reuses the transition-story layout on a light surface. */
+#experience .path-card {
+  background: var(--surface-soft);
+  border-color: var(--line);
+  box-shadow: 0 12px 28px rgba(14,42,57,.06);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+#experience .path-card .pc-num { font-family: var(--mono); font-size: 13px; color: #18837c; letter-spacing: .1em; }
+#experience .path-card h3 { color: var(--ink); }
+#experience .path-card p { color: var(--ink-2); }
+#experience .path-card .dual .d {
+  background: #fff;
+  color: var(--ink-2);
+  line-height: 1.55;
+}
+#experience .path-card .dual .d b { color: var(--ink); }
+#experience .path-card .chip {
+  background: rgba(46,211,196,.10);
+  border-color: rgba(46,211,196,.42);
+  color: var(--accent-ink);
+}
 
 /* ============================================================
    WHAT I DO
